@@ -1,4 +1,4 @@
-# Dan 3 - predavanje 2
+# Predavanje 2
 
 	2.4 Metode - nastavak
 	2.5 Konstruktori
@@ -11,7 +11,7 @@
 
 # Zadatak 1
 
-Napraviti klasu **Automobil** u paketu **zadatak1** koja ima:
+Napraviti klasu **Automobil** u paketu **dvocas2_sreda.zadatak1** koja ima:
 
 
 - atribut **marka** koji predstavlja naziv marke automobila.
@@ -25,13 +25,13 @@ Napraviti klasu **Automobil** u paketu **zadatak1** koja ima:
 
 - Metodu **ispisi** koja na ekranu ispisuje sve podatke o vozilu uz odgovarajući tekst.
 
-Napraviti klasu **TestAutomobil** u paketu **zadatak1** koja ima main metodu u kojoj se pravi jedan objekta klase Automobil i puni sledećim podacima: "Nissan", "Micra", 1199, 50.5, "NS-567-HH", "Zika Zikic", "benzin". Ispisati na ekranu sve podatke o automobilu.
+Napraviti klasu **TestAutomobil** u paketu **dvocas2_sreda.zadatak1** koja ima main metodu u kojoj se pravi jedan objekta klase Automobil i puni sledećim podacima: "Nissan", "Micra", 1199, 50.5, "NS-567-HH", "Zika Zikic", "benzin". Ispisati na ekranu sve podatke o automobilu.
 
 ## Nabrojivi tip (enum)
 
 **PROBLEM: Postoji ograničen skup vrsta goriva (benzin, dizel, gas, struja). Atribut vrstaGoriva je String pa korisnik može da unese bilo šta. Kako ograničiti unos samo na dozvoljene vrednosti?**
 
-Napraviti nabrojivi tip **TipGoriva** u paketu **zadatak1** koji ima sledeće instance:
+Napraviti nabrojivi tip **TipGoriva** u paketu **dvocas2_sreda.zadatak1** koji ima sledeće instance:
 
 - BENZIN, DIZEL, GAS, STRUJA **(Nabrojivi tip - enum, instance, Java konvencija o nazivima za instance nabrojivog tipa)**
 
@@ -55,7 +55,7 @@ Ispraviti kod u main metodi tako da se objekat inicijalizuje pozivom konstruktor
 
 **PROBLEM: Upravo sam shvatio da mi je potrebno da imam i računanje snage motora u konjskim snagama (umesto u kilovatima). Bilo bi lepo da imam negde mali konvertor koji to radi i da ga onda koristim iz klase Automobil.**
 
-Napraviti klasu **KonvertorSnage** u paketu **zadatak1** koja ima:
+Napraviti klasu **KonvertorSnage** u paketu **dvocas2_sreda.zadatak1** koja ima:
 
 - Atribut **KS_KW** koji predstavlja koliko jedna konjska snaga iznosi kilovata. Postaviti da početna vrednost bude 0.74.
 - Atribut **KW_KS** koji predstavlja koliko jedan kilovat iznosi konjskih snaga. Postaviti da početna vrednost bude 1.34.
@@ -80,7 +80,7 @@ Izmeniti kod klase **KonvertorSnage** tako da:
 
 Dodati u klasu **Automobil**:
 
-- Metodu **unesiSnagu** koja kao parametar dobija snagu automobila i unosi tu vrednosti u atribut snaga.Snaga mora da bude u rasponu od 10 do 800 kilovata, inače metoda ne unosi vrednost u atribut, već samo ispisuje na ekranu "Snaga je van granica 10-800".**(logički operatori i složeni uslovi)**
+- Metodu **unesiSnagu** koja kao parametar dobija snagu automobila i unosi tu vrednosti u atribut snaga. Snaga mora da bude u rasponu od 10 do 800 kilovata, inače metoda ne unosi vrednost u atribut, već samo ispisuje na ekranu "Snaga je van granica 10-800".**(logički operatori i složeni uslovi)**
 
 - Metodu **unesiKubikazu** koja kao parametar dobija kubikažu automobila i unosi tu vrednosti u atribut kubikaza.Kubikaza mora da bude u rasponu od 700 do 5000 kubika, inače metoda ne unosi vrednost u atribut, već samo ispisuje na ekranu "Kubikaza je van granica 700-5000".
 
@@ -115,7 +115,7 @@ Svaka asocijacija se definiše preko tri elementa:
 
 
 
-Napraviti klasu **Osoba** u paketu **zadatak1** koja ima:
+Napraviti klasu **Osoba** u paketu **dvocas2_sreda.zadatak1** koja ima:
 - Atribut **ime**
 - Atribut **prezime**
 - Atribut **jmbg**
