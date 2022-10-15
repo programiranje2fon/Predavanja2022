@@ -40,29 +40,3 @@ Dodati u klasu Ispisivac:
 Dodati u klasu Ispisivac:
 
 - Statičku metodu **vremeDupliranja** koja kao parametre dobija iznos novca koji je uložen u banku i godišnju kamatu koju banka daje na uložen novac. Metoda na ekranu ispisuje iznos novca u banci posle svake godine i to sve dok se novac ne duplira u odnosu na originalni iznos. Pretpostavlja se da klijent ne podiže novac u međuvremenu tj. da će ići "kamata na kamatu".**(while petlja, i napomenuti da se svaka petlja može ispisati i preko while i preko for naredbe)**
-
-# Zadatak 2
-
-U produžetku teksta je dat kod klase sa metodom koja bi trebalo da ispisuje trougao (od znakova *) na ekranu. Ideja je da se u prvom redu na ekranu ispiše jedna zvezdica, u drugom redu dve... a u poslednjem pet, tako da bi konačan izlaz na ekranu trebalo da izgleda ovako:
-
-	*
-	**
-	***
-	****
-	*****
-
-Dati kod se kompajlira, ali ne radi to šta treba. Napraviti klasu **Ispisivac** u paketu **dvocas3_ponedeljak.zadatak2**, iskopirati u nju kod koji je dat i, uz minimalne izmene ga ispraviti tako da funkcioniše kako treba. Koristeći main metodu iz test klase, pozvati metodu ispisiTrougao() i proveriti njen rad.
-
-package dvocas3_ponedeljak.zadatak2;
-
-class Ispisivac {
-	static void ispisiTrougao(){
-		for (int i=1; i>=5; i++){
-			int j=1;
-			while (j<i)
-				j++;
-				System.out.print('*');
-				System.out.println();
-		}							
-	}
-}
