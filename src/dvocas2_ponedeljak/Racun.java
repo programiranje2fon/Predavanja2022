@@ -29,9 +29,11 @@ public class Racun {
 	 * @return ukupan iznos racuna
 	 */
 	double izracunajUkupniIznos() {
-		double iznos = artikal1.cena*artikal1.kolicina +
-					artikal2.cena*artikal2.kolicina +
-					artikal3.cena*artikal3.kolicina;
+		double iznos = 0;
+		if (artikal1 !=null) iznos += artikal1.izracunajIznos();
+		if (artikal2 !=null) iznos += artikal2.izracunajIznos();
+		if (artikal3 !=null) iznos += artikal3.izracunajIznos();		
+
 		return iznos;
 	}
 	
@@ -42,13 +44,13 @@ public class Racun {
 		System.out.println("Racun br: "+brojRacuna);
 		
 		for(int i=1; i<=3; i++) {
-			if (i==1)
+			if ((i==1) && (artikal1!=null))
 				System.out.println("Ime artikla1: " +artikal1.ime + " Cena: "+ artikal1.cena + " Kol: "+ artikal1.kolicina + " Vrsta: "+artikal1.vrsta );
 			
-			if (i==2)			
+			if ((i==2) && (artikal2!=null)) 			
 				System.out.println("Ime artikla2: " +artikal2.ime + " Cena: "+ artikal2.cena + " Kol: "+ artikal2.kolicina + " Vrsta: "+artikal2.vrsta);
 
-			if (i==3)			
+			if ((i==3) && (artikal3!=null))
 				System.out.println("Ime artikla3: " +artikal3.ime + " Cena: "+ artikal3.cena + " Kol: "+ artikal3.kolicina + " Vrsta: "+artikal3.vrsta);
 		}
 		
@@ -63,7 +65,10 @@ public class Racun {
 	 * @return porez (PDV) na ukupan izos ovog racuna
 	 */
 	double izracunajPDV() {
-		double pdv = artikal1.izracunajPorez() + artikal2.izracunajPorez() + artikal3.izracunajPorez();
+		double pdv = 0;
+		if (artikal1 != null) pdv +=artikal1.izracunajPorez();
+		if (artikal2 != null) pdv += artikal2.izracunajPorez();
+		if (artikal3 != null) pdv += artikal3.izracunajPorez();
 		return pdv;
 	}
 	

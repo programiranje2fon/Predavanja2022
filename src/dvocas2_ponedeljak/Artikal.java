@@ -10,6 +10,10 @@ class Artikal {
 	public static final double PORESKA_STOPA_LUKSUZNA = 0.2;
 	
 	
+	double izracunajIznos() {
+		return cena * kolicina;
+	}
+	
 	double izracunajPorez() {
 		double iznos = cena * kolicina;
 		
