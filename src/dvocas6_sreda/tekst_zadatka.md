@@ -35,10 +35,7 @@ Izmeniti klasu **Osoba** tako da svi atributi i metode klase budi javni.
 
 **Problem: šta ako negde u aplikaciji imam klasu sa istim nazivom?**
 
-Napraviti javnu klasu **Osoba** u paketu **dvocas6_sreda.zadatak1.duplirana_klasa** koja ima:
-
-- atribut **ime** koji predstavlja ime osobe. Početna vrednost je "nepoznato".
-- atribut **prezime** koji predstavlja prezime osobe. Početna vrednost je "nepoznato".**(identifikator klase = naziv paketa i naziv klase, konvencija za nazive paketa u Javi prema domenu, važnost import naredbe)**
+Potražiti klasu **Osoba** u drugim paketima, od prethodnih predavanja **(identifikator klase = naziv paketa i naziv klase, konvencija za nazive paketa u Javi prema domenu, važnost import naredbe)**
 
 
 **Problem: atributima klase Osoba se može pristupati direktno, zaobilazeći metode postaviIme, postaviPrezime i postaviAdresu i njihovu logičku kontrolu.(modifikatori pristupa: private i public)**
