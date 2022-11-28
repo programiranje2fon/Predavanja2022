@@ -20,4 +20,3 @@ Vrste i nastajanje izuzetaka
 - Interfejs List
 - Klasa LinkedList (zamena ArrayListe preko interfejsa)
 - Razlika izmedju ArrayList i LinkedList
-- Klasa Racun sa Listom umesto niza
