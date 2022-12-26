@@ -1,6 +1,6 @@
 # Predavanje 12
 
-	13 Grafičku (korisnički) interfejsi u Javi
+	14 Grafičku (korisnički) interfejsi u Javi
 
 
 # Zadatak 1
