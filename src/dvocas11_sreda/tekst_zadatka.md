@@ -1,4 +1,4 @@
-# Predavanje 10
+# Predavanje 11
 
 	13.2 Rad sa tekstualnim fajlovima
 	13.3 Serijalizacija
@@ -8,7 +8,7 @@
 
 
 
-Napraviti javnu klasu **BlogPost** u paketu **dvocas11_utorak.zadatak1** koja ima:
+Napraviti javnu klasu **BlogPost** u paketu **dvocas11_sreda.zadatak1** koja ima:
 
 
 - privatni atribut **naslov** koji predstavlja tekst naslova blog post-a.
@@ -20,7 +20,7 @@ Napraviti javnu klasu **BlogPost** u paketu **dvocas11_utorak.zadatak1** koja im
 - redefinisanu javnu **toString** metodu koja vraća String sa svim podacima o iz BlogPost-a, i to tako da se datum vraća u prvom redu teksta u lepšem formatu, da onda ide prazan red teksta, da onda ide naslov, pa opet prazan red teksta i onda tekst Blogpost-a.**(ručno unošenje znaka za kraj reda \n)**
 
 
-Napraviti javnu klasu **TestBlog** u paketu **dvocas11_utorak.zadatak1.test** koja u main metodi pravi jedan objekat klase BlogPost i unosi u njega naslov "Prvi post" i tekst "Danas je lep dan.". Ispisati napravljeni BlogPost na ekranu.
+Napraviti javnu klasu **TestBlog** u paketu **dvocas11_sreda.zadatak1.test** koja u main metodi pravi jedan objekat klase BlogPost i unosi u njega naslov "Prvi post" i tekst "Danas je lep dan.". Ispisati napravljeni BlogPost na ekranu.
 
 
 
@@ -35,7 +35,7 @@ Dodati u klasu **BlogPost**:
 Izmeniti kod klase **TestBlog** tako da se u main metodi kreira još jedan objekat klase BlogPost čiji se sadržaj učitava iz tekstualnog fajla "post.txt". **(pravljenje tekstualnog fajla ručno iz Eclipse okruženja, putanja do fajla)**
 
 
-Napraviti javnu klasu **Blog** u paketu **dvocas11_utorak.zadatak1** koja ima:
+Napraviti javnu klasu **Blog** u paketu **dvocas11_sreda.zadatak1** koja ima:
 
 
 - privatni atribut **postovi** koji je lista objekata klase BlogPost. Odmah inicijalizovati ovu listu kao ArrayList.
